@@ -1,11 +1,15 @@
-import "./App.css";
+import { About } from "./components/about/about";
+import Intro from "./components/intro/intro";
+import { Featured } from "./components/featured/featured";
 
-import React, { Component } from "react";
+const App = () => {
+  return (
+    <div>
+      <Intro />
+      <About />
+      <Featured />
+    </div>
+  );
+};
 
-export default class App extends Component {
-  render() {
-    return <div className="App">
-      Hello
-    </div>;
-  }
-}
+export default App;

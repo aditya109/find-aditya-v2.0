@@ -27,6 +27,7 @@ export const Featured = () => {
           <img
             src={GithubLogo}
             title="Click to view repository"
+            alt=""
             className="f-logo"
           />
         </div>
@@ -34,7 +35,7 @@ export const Featured = () => {
       <div className="f-right">
         <div className="f-card bg"></div>
         <div className="f-card">
-          <img src={FeatureProjectImage} alt="" className="f-img" />
+          <img src={FeatureProjectImage} alt="Featured Project" className="f-img" />
         </div>
       </div>
     </div>

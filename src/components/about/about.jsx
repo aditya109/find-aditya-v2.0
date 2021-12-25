@@ -65,7 +65,7 @@ export const About = () => {
             title="Click to verify certificate"
             onClick={() => openInNewTab(certVerificationURL)}
           >
-            <img src={CKABadge} className="a-award-img" />
+            <img src={CKABadge} alt="cka-badge" className="a-award-img" />
             <div className="a-award-texts">
               <h4 className="a-award-title">
                 Certified Kubernetes Administrator

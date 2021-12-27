@@ -1,13 +1,15 @@
 import { About } from "./components/about/about";
-import Intro from "./components/intro/intro";
+import { Intro } from "./components/intro/intro";
 import { Featured } from "./components/featured/featured";
+import { ProductList } from "./components/productList/productList";
 
 const App = () => {
   return (
     <div>
-      <Intro />
+      {/* <Intro />
       <About />
-      <Featured />
+      <Featured /> */}
+      <ProductList />
     </div>
   );
 };

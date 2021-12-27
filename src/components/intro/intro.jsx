@@ -1,7 +1,7 @@
 import "./intro.css";
 import DeveloperIllustration from "../../assets/img/dev-profile.svg";
 
-const Intro = () => {
+export const Intro = () => {
   return (
     <div className="i">
       <div className="i-left">
@@ -52,4 +52,3 @@ const Intro = () => {
   );
 };
 
-export default Intro;

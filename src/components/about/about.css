@@ -12,13 +12,13 @@
   position: relative;
   height: 100%;
   clip-path: circle(33.2% at 50% 50%);
-  background-color: green;
+  background-color: var(--green);
 }
 .a-card.bg {
   position: absolute;
   left: 200px;
   top: 50px;
-  background-color: #2f2e41;
+  background-color: var(--dark-blue);
 }
 
 .a-card {
@@ -49,7 +49,7 @@
   margin: 20px 0px;
   font-weight: 400;
   font-size: 24px;
-  color: green;
+  color: var(--green);
 }
 
 .a-desc {
@@ -78,14 +78,14 @@ i strong {
   cursor: pointer;
   margin-top: 30px;
   transition: background 0.45s ease;
-  box-shadow: 10px 3px 26px -23px rgba(0, 0, 0, 0.18);
-  -webkit-box-shadow: 10px 3px 26px -23px rgba(0, 0, 0, 0.18);
-  -moz-box-shadow: 10px 3px 26px -23px rgba(0, 0, 0, 0.18);
+  box-shadow: 10px 3px 26px -23px var(--shadow-black-light);
+  -webkit-box-shadow: 10px 3px 26px -23px var(--shadow-black-light);
+  -moz-box-shadow: 10px 3px 26px -23px var(--shadow-black-light);
   overflow: hidden;
 }
 
 .a-award:hover {
-  box-shadow: 10px 10px 50px -24px rgba(43, 43, 43, 0.75);
+  box-shadow: 10px 10px 50px -24px var(--shadow-black-dark);
   border: none;
 }
 
@@ -109,16 +109,16 @@ i strong {
 
 .a-award:hover .a-award-texts {
   background: #2f2e41;
-  color: white;
+  color: var(--white);
 }
 
 .a-award-title {
   transition: border-bottom 0.45s ease;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid var(--white);
 }
 
 .a-award:hover .a-award-title {
-  border-bottom: 2px solid #73bf00;
+  border-bottom: 2px solid var(--bright-green);
 }
 
 .a-award-desc {
@@ -156,7 +156,7 @@ i strong {
   margin-top: 20px;
   border-radius: 10px;
   width: 82%;
-  background-color: green;
+  background-color: var(--green);
   overflow-y: hidden;
   display: flex;
   flex-direction: column;
@@ -167,11 +167,11 @@ i strong {
 .a-skills-type {
   font-weight: 800;
   font-size: 45px;
-  color: #73bf00;
+  color: var(--bright-green);
   text-transform: lowercase;
 }
 .a-skills-list {
-  color: white ;
+  color: var(--white) ;
   font-weight: 600;
   font-size: 20px;
 }

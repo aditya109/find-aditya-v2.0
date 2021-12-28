@@ -16,7 +16,7 @@ export const ProductList = () => {
       </div>
       <div className="pl-list">
         {profile.portfolio.map((item) => (
-          <Product key={item.id} img={item.image} />
+          <Product key={item.id} img={process.env.PUBLIC_URL + item.image} link={item.gitlink} />
         ))}
       </div>
     </div>

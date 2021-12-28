@@ -8,7 +8,7 @@
   position: absolute;
   right: 200px;
   top: 50px;
-  background-color: #2f2e41;
+  background-color: var(--dark-blue);
 }
 
 .f-card {
@@ -17,8 +17,8 @@
   border-radius: 20px;
   position: relative;
   overflow: hidden;
-  border: 1px solid #2f2e41;
-  background-color: white;
+  border: 1px solid var(--dark-blue);
+  background-color: var(--white);
 }
 
 .f-img {
@@ -37,21 +37,22 @@
 
 .f-left {
   flex: 1;
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-  background-color: green;
-  height: 92%;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
+  background-color: var(--green);
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 40px;
+  padding-left: 40px;
+  overflow: hidden;
 }
 
 .f-preface {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 150px;
-  color: #73bf00;
+  color: var(--bright-green);
   padding-top: 30px;
   padding-bottom: 20px;
 }
@@ -60,7 +61,7 @@
   text-transform: capitalize;
   font-weight: 300;
   font-size: 55px;
-  color: white;
+  color: var(--white);
 }
 
 .f-subtitle {
@@ -81,9 +82,10 @@
 
 .f-logo-container {
   margin-top: 20px;
-  height: 4%;
-  border: 2px solid green;
-  transition: border-radius 0.45s ease, border-color 0.45s ease, box-shadow 0.45s ease;
+  height: 30px;
+  border: 2px solid var(--green);
+  transition: border-radius 0.45s ease, border-color 0.45s ease,
+    box-shadow 0.45s ease;
 }
 
 .f-logo {
@@ -95,7 +97,7 @@
   border-color: black;
   border-radius: 20px;
   cursor: pointer;
-  box-shadow: 10px 10px 15px -1px rgba(0,0,0,0.22);
-  -webkit-box-shadow: 10px 10px 15px -1px rgba(0,0,0,0.22);
-  -moz-box-shadow: 10px 10px 15px -1px rgba(0,0,0,0.22);
+  box-shadow: 10px 10px 15px -1px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 10px 10px 15px -1px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 10px 10px 15px -1px rgba(0, 0, 0, 0.22);
 }

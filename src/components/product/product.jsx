@@ -1,6 +1,6 @@
 import "./product.css";
 
-export const Product = () => {
+export const Product = ({ img, link }) => {
   return (
     <div className="p">
       <div className="p-browser">
@@ -8,8 +8,8 @@ export const Product = () => {
         <div className="p-circle"></div>
         <div className="p-circle"></div>
       </div>
-      <a href="www.google.com" target="_blank">
-        <img src="" alt="" className="p-img" />
+      <a href={link} target="_blank" rel="noreferrer">
+        <img src={img} alt="" className="p-img" />
       </a>
     </div>
   );

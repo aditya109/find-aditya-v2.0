@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/find-aditya-v2.0/static/css/main.d0d0fa4e.chunk.css",
-    "main.js": "/find-aditya-v2.0/static/js/main.4f344a3e.chunk.js",
-    "main.js.map": "/find-aditya-v2.0/static/js/main.4f344a3e.chunk.js.map",
+    "main.css": "/find-aditya-v2.0/static/css/main.8b6a36b6.chunk.css",
+    "main.js": "/find-aditya-v2.0/static/js/main.cbfadd06.chunk.js",
+    "main.js.map": "/find-aditya-v2.0/static/js/main.cbfadd06.chunk.js.map",
     "runtime-main.js": "/find-aditya-v2.0/static/js/runtime-main.763aa784.js",
     "runtime-main.js.map": "/find-aditya-v2.0/static/js/runtime-main.763aa784.js.map",
-    "static/js/2.dcd717e7.chunk.js": "/find-aditya-v2.0/static/js/2.dcd717e7.chunk.js",
-    "static/js/2.dcd717e7.chunk.js.map": "/find-aditya-v2.0/static/js/2.dcd717e7.chunk.js.map",
+    "static/js/2.4a69f029.chunk.js": "/find-aditya-v2.0/static/js/2.4a69f029.chunk.js",
+    "static/js/2.4a69f029.chunk.js.map": "/find-aditya-v2.0/static/js/2.4a69f029.chunk.js.map",
     "index.html": "/find-aditya-v2.0/index.html",
-    "static/css/main.d0d0fa4e.chunk.css.map": "/find-aditya-v2.0/static/css/main.d0d0fa4e.chunk.css.map",
-    "static/js/2.dcd717e7.chunk.js.LICENSE.txt": "/find-aditya-v2.0/static/js/2.dcd717e7.chunk.js.LICENSE.txt",
+    "static/css/main.8b6a36b6.chunk.css.map": "/find-aditya-v2.0/static/css/main.8b6a36b6.chunk.css.map",
+    "static/js/2.4a69f029.chunk.js.LICENSE.txt": "/find-aditya-v2.0/static/js/2.4a69f029.chunk.js.LICENSE.txt",
     "static/media/GitHub_Logo.746ec8f0.png": "/find-aditya-v2.0/static/media/GitHub_Logo.746ec8f0.png",
     "static/media/cka-certified-kubernetes-administrator.9b561980.png": "/find-aditya-v2.0/static/media/cka-certified-kubernetes-administrator.9b561980.png",
     "static/media/dev-profile.947d20ed.svg": "/find-aditya-v2.0/static/media/dev-profile.947d20ed.svg",
+    "static/media/email.c7f87348.svg": "/find-aditya-v2.0/static/media/email.c7f87348.svg",
+    "static/media/github.3dfe2ad4.svg": "/find-aditya-v2.0/static/media/github.3dfe2ad4.svg",
+    "static/media/linkedin.cfe4cd5b.svg": "/find-aditya-v2.0/static/media/linkedin.cfe4cd5b.svg",
     "static/media/litmus.248d107e.png": "/find-aditya-v2.0/static/media/litmus.248d107e.png",
-    "static/media/skill-graphics.e17f19dd.svg": "/find-aditya-v2.0/static/media/skill-graphics.e17f19dd.svg"
+    "static/media/moon.18c378db.svg": "/find-aditya-v2.0/static/media/moon.18c378db.svg",
+    "static/media/skill-graphics.e17f19dd.svg": "/find-aditya-v2.0/static/media/skill-graphics.e17f19dd.svg",
+    "static/media/sun.1d57f180.svg": "/find-aditya-v2.0/static/media/sun.1d57f180.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.763aa784.js",
-    "static/js/2.dcd717e7.chunk.js",
-    "static/css/main.d0d0fa4e.chunk.css",
-    "static/js/main.4f344a3e.chunk.js"
+    "static/js/2.4a69f029.chunk.js",
+    "static/css/main.8b6a36b6.chunk.css",
+    "static/js/main.cbfadd06.chunk.js"
   ]
 }

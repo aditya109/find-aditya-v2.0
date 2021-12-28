@@ -1,6 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import { ThemeProvider } from "./data/context";
 import "./index.css";
 
 if (module.hot) {
@@ -9,7 +10,10 @@ if (module.hot) {
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
+    
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );

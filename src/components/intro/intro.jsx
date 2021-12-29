@@ -1,4 +1,5 @@
 import "./intro.css";
+import "./introR.css";
 import DeveloperIllustration from "../../assets/img/dev-profile.svg";
 
 export const Intro = () => {
@@ -16,7 +17,6 @@ export const Intro = () => {
               <div className="i-title-item">Open-source Advocate</div>
             </div>
           </div>
-          {/* <p className="i-desc">Not Your Average Software Developer</p> */}
         </div>
         <svg
           className="i-scroll-full"

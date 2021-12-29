@@ -102,3 +102,9 @@ textarea {
   box-shadow: 10px 10px 16px -12px var(--shadow-black-light);
   background-color: var(--bright-green);
 }
+
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+  }
+}

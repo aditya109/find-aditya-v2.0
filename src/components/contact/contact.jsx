@@ -19,8 +19,8 @@ export const Contact = () => {
   });
   // eslint-disable-next-line
   const [done, setDone] = useState(false);
-  const EMAIL_TEMPLATE_ID = typeof(process.env.EMAIL_TEMPLATE_ID) == typeof(undefined) ? "": process.env.EMAIL_TEMPLATE_ID;
-  const USER_ID = typeof(process.env.USER_ID) == typeof(undefined) ? "": process.env.USER_ID;
+  const EMAIL_TEMPLATE_ID = process.env.EMAIL_TEMPLATE;
+  const USER_ID = process.env.USER_ID;
 
   const handleInputChange = (e) => {
     const name = e.target.name;

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/find-aditya-v2.0/static/css/main.7c0062dd.chunk.css",
-    "main.js": "/find-aditya-v2.0/static/js/main.478362ee.chunk.js",
-    "main.js.map": "/find-aditya-v2.0/static/js/main.478362ee.chunk.js.map",
+    "main.js": "/find-aditya-v2.0/static/js/main.930df0a6.chunk.js",
+    "main.js.map": "/find-aditya-v2.0/static/js/main.930df0a6.chunk.js.map",
     "runtime-main.js": "/find-aditya-v2.0/static/js/runtime-main.763aa784.js",
     "runtime-main.js.map": "/find-aditya-v2.0/static/js/runtime-main.763aa784.js.map",
     "static/js/2.4a69f029.chunk.js": "/find-aditya-v2.0/static/js/2.4a69f029.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.763aa784.js",
     "static/js/2.4a69f029.chunk.js",
     "static/css/main.7c0062dd.chunk.css",
-    "static/js/main.478362ee.chunk.js"
+    "static/js/main.930df0a6.chunk.js"
   ]
 }

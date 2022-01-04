@@ -21,7 +21,7 @@ export const Contact = () => {
   const [done, setDone] = useState(false);
   const EMAIL_TEMPLATE_ID = process.env.EMAIL_TEMPLATE;
   const USER_ID = process.env.USER_ID;
-  console.log(EMAIL_TEMPLATE_ID, USER_ID);
+  console.log(process.env);
 
   const handleInputChange = (e) => {
     const name = e.target.name;

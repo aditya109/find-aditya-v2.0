@@ -30,8 +30,8 @@ jobs:
       run: npm install
     - name: run build
       env:
-        EMAIL_TEMPLATE: ${{secrets.EMAIL_TEMPLATE}}
-        USER_ID: ${{secrets.USER_ID}}
+        EMAIL_TEMPLATE: ${{ secrets.EMAIL_TEMPLATE }}
+        USER_ID: ${{ secrets.USER_ID }}
         
       run: npm run build --if-present
     - name: Deploy

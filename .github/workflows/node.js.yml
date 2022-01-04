@@ -30,6 +30,7 @@ jobs:
       run: npm install
     - name: run build
       env:
+        CI: true
         EMAIL_TEMPLATE: ${{ secrets.EMAIL_TEMPLATE_ID }}
         USER_ID: ${{ secrets.USER_ID }}
         

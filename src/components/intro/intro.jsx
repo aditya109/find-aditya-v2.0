@@ -33,7 +33,8 @@ export const Intro = () => {
             height="61"
             rx="17.5"
             stroke="green"
-            stroke-width="6"
+            strokeWidth="6"
+            className="i-scroll-rect"
           />
           <circle
             className="i-scroll-dot"

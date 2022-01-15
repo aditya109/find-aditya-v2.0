@@ -2,7 +2,7 @@ import "./toggle.css";
 import SunImg from "../../assets/img/sun.svg";
 import MoonImg from "../../assets/img/moon.svg";
 import { ThemeContext } from "../../data/context";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 
 export const Toggle = () => {
   const theme = useContext(ThemeContext);
@@ -11,6 +11,16 @@ export const Toggle = () => {
       type: "TOGGLE",
     });
   };
+  useEffect(() => {
+    var hour = new Date().getHours();
+
+    if (hour >= 16) {
+      theme.dispatch({
+        type: "TOGGLE",
+      });
+    }
+  }, []);
+
   return (
     <div className="t" onClick={handleClick}>
       <img src={SunImg} alt="" className="t-icon" />

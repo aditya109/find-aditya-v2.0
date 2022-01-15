@@ -19,6 +19,9 @@ export const Contact = () => {
   });
   // eslint-disable-next-line
   const [done, setDone] = useState(false);
+  const EMAIL_TEMPLATE_ID = process.env.EMAIL_TEMPLATE;
+  const USER_ID = process.env.USER_ID;
+  console.log(process.env);
 
   const handleInputChange = (e) => {
     const name = e.target.name;
@@ -33,9 +36,9 @@ export const Contact = () => {
       emailjs
         .sendForm(
           "portfolio-mail",
-          "template_6q8yj3a",
+          EMAIL_TEMPLATE_ID,
           formRef.current,
-          "user_EW4nduSxJLR2Nu73Vp1C4"
+          USER_ID
         )
         .then(
           (result) => {
